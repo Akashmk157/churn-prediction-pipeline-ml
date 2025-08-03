@@ -31,6 +31,8 @@ Key Features:
 - Billing: Contract Type, Payment Method, MonthlyCharges, TotalCharges
 - Target: Churn (Yes/No)
 
+---
+
 ## Models Trained
 - Logistic Regression
 - Decision Tree
@@ -38,27 +40,32 @@ Key Features:
 - Gradient Boosting
 - XGBoost (Best Performer)
 
+---
+
 ## Evaluation Metrics
 1. Accuracy
 2. Precision
 3. Recall
 4. F1 Score
 5. ROC AUC
+--- 
 
 ## Model Explainability
 Used SHAP (SHapley Additive exPlanations) to interpret model predictions.
 
 ### Top Churn Drivers:
-Contract Type
-Tenure
-Payment Method
+- Contract Type
+- Tenure
+- Payment Method
 
 ## Key Insights
-Customers on month-to-month contracts and using electronic checks are more likely to churn.
-Longer tenure and automatic payments are associated with higher retention.
-These insights can inform targeted retention strategies.
+1) Customers on month-to-month contracts and using electronic checks are more likely to churn.
+2) Longer tenure and automatic payments are associated with higher retention.
+3) These insights can inform targeted retention strategies.
+
+---
 
 ## Tech Stack
-Python (Pandas, NumPy, Scikit-learn, XGBoost, SHAP)
-Jupyter Notebooks
-Matplotlib / Seaborn for visualization
+- Python (Pandas, NumPy, Scikit-learn, XGBoost, SHAP)
+- Jupyter Notebooks
+- Matplotlib / Seaborn for visualization
