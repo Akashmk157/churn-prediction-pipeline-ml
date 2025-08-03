@@ -26,7 +26,7 @@ To build a predictive model that identifies customers likely to churn, enabling 
 The dataset includes customer demographics, service subscriptions, billing information, and churn status.
 
 Key Features:
-Demographics: Gender, SeniorCitizen, Partner, Dependents
-Services: InternetService, OnlineSecurity, TechSupport, StreamingTV, etc.
-Billing: Contract Type, Payment Method, MonthlyCharges, TotalCharges
-Target: Churn (Yes/No)
+- Demographics: Gender, SeniorCitizen, Partner, Dependents
+- Services: InternetService, OnlineSecurity, TechSupport, StreamingTV, etc.
+- Billing: Contract Type, Payment Method, MonthlyCharges, TotalCharges
+- Target: Churn (Yes/No)
