@@ -19,3 +19,14 @@ To build a predictive model that identifies customers likely to churn, enabling 
 4. Model Development
 5. Evaluation & Interpretation
 6. Insights & Recommendations
+
+---
+
+## Dataset Summary
+The dataset includes customer demographics, service subscriptions, billing information, and churn status.
+
+Key Features:
+Demographics: Gender, SeniorCitizen, Partner, Dependents
+Services: InternetService, OnlineSecurity, TechSupport, StreamingTV, etc.
+Billing: Contract Type, Payment Method, MonthlyCharges, TotalCharges
+Target: Churn (Yes/No)
